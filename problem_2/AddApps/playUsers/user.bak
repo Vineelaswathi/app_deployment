@@ -1,0 +1,20 @@
+LeNet(1998):
+	Optical Character Recognition - Only charecters identification(Alphabet detection)
+	Doesn't do well for the coloured images also
+	Reason:
+		The lack of depth of the neural network
+		Slow learning
+		Usage of tanh in all LeNet is the major drawback (because of this Tanh activation function there are high chances that we undergo vanishing gradient decent problem.)
+		The model is so simple and requires huge training data set
+
+AlexNet(2012):
+    First model that uses GPU and uses Relu activation function
+	Takes less time than LeNet
+	Disadvantages:
+		Compared to other models depth is less so there are other models which are amazing than Alex
+
+
+
+
+		
+	

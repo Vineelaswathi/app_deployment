@@ -1,0 +1,29 @@
+LeNet(1998):
+	Optical Character Recognition - Only charecters identification(Alphabet detection)
+	Doesn't do well for the coloured images also
+	Reason:
+		The lack of depth of the neural network
+		Slow learning
+		Usage of tanh in all LeNet is the major drawback (because of this Tanh activation function there are high chances that we undergo vanishing gradient decent problem.)
+		The model is so simple and requires huge training data set
+
+AlexNet(2012):
+    First model that uses GPU and uses Relu activation function
+	Takes less time than LeNet
+	Disadvantages:
+		Compared to other models depth is less so there are other models which are amazing than Alex
+
+VGG(2014):
+	VGG primary focus is to attain good accuracy in less time
+	Disadvantages:
+		Though the best accuracy has been attained in less time the loss is more unstable
+		It takes more time to reach the local minima since there are many fluctuations in the loss
+		Explosion gradient decent is the major problem in vgg
+
+ResNet(2015):
+	When compared to other models ResNet is very fast and can attain great accuracy in less time
+	Disadvantages:
+	Increasing the number of layers beyond 20 the model unable to converge at local minima
+	At some point there is no change in weights and due to which it accounts for Vanishing Gradienyt Decent
+	Advantages:
+	Very fast in terms of accuracy and less training time
